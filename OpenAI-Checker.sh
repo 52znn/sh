@@ -24,7 +24,7 @@ check_vpn() {
 check_vpn "https://api.openai.com/" "error" "Web"
 
 # 检查 iOS ChatGPT
-check_vpn "https://ios.chat.openai.com/" "VPN" "iOS"
+check_vpn "https://ios.chat.openai.com/" "error" "VPN" "iOS"
 
 # 检查 Android ChatGPT
-check_vpn "https://android.chat.openai.com/" "VPN" "Android"
+check_vpn "https://android.chat.openai.com/" "error" "VPN" "Android"
